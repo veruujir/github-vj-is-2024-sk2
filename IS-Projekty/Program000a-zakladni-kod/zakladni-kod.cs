@@ -20,7 +20,7 @@ class Program {
             int first;
             while(!int.TryParse(Console.ReadLine(), out first)){
                 Console.WriteLine("Nezadali jste celé číslo. Zadejte znovu první číslo řady:");
-            }
+            
             }
 
             //opakování programu - TO DO 

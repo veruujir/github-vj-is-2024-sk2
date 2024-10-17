@@ -1,0 +1,14 @@
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\bin\Debug\net7.0\program003 -obrazce.exe
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\bin\Debug\net7.0\program003 -obrazce.deps.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\bin\Debug\net7.0\program003 -obrazce.runtimeconfig.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\bin\Debug\net7.0\program003 -obrazce.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\bin\Debug\net7.0\program003 -obrazce.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\obj\Debug\net7.0\program003 -obrazce.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\obj\Debug\net7.0\program003 -obrazce.AssemblyInfoInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\obj\Debug\net7.0\program003 -obrazce.AssemblyInfo.cs
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\obj\Debug\net7.0\program003 -obrazce.csproj.CoreCompileInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\obj\Debug\net7.0\program003 -obrazce.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\obj\Debug\net7.0\refint\program003 -obrazce.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\obj\Debug\net7.0\program003 -obrazce.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\obj\Debug\net7.0\program003 -obrazce.genruntimeconfig.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003 -obrazce\obj\Debug\net7.0\ref\program003 -obrazce.dll
