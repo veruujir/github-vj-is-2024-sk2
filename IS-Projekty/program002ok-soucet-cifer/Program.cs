@@ -22,6 +22,7 @@
              Console.WriteLine("");
 
             int suma = 0;
+            int soucin = 1; 
             int numberBackup = number;
             int digit;
 
@@ -34,11 +35,14 @@
                 number = (number - digit) / 10;
                 Console.WriteLine("Digit = {0}", digit);
                 suma = suma + digit;
+                soucin *= digit;
             }
             Console.WriteLine("Digit = {0}", number);
             suma = suma + number;
+            soucin = soucin * number;
 
             Console.WriteLine("\n\nSoučet cifer čísla {0} je {1}", numberBackup, suma);
+            Console.WriteLine("Součin cifer čísla {0} je {1}\n\n", numberBackup, soucin);
 
 
 
