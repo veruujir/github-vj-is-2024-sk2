@@ -19,7 +19,7 @@
 
             // Výpis vstupní hodnoty
             Console.WriteLine("");
-            Console.WriteLine("Uživatel zadal: {0}", number);
+            Console.WriteLine("Zadali jste: {0}", number);
             Console.WriteLine("");
 
             int suma = 0;
