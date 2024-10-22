@@ -1,0 +1,14 @@
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\bin\Debug\net7.0\program003b-pravouhly-trojuhelnik.exe
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\bin\Debug\net7.0\program003b-pravouhly-trojuhelnik.deps.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\bin\Debug\net7.0\program003b-pravouhly-trojuhelnik.runtimeconfig.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\bin\Debug\net7.0\program003b-pravouhly-trojuhelnik.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\bin\Debug\net7.0\program003b-pravouhly-trojuhelnik.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net7.0\program003b-pravouhly-trojuhelnik.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net7.0\program003b-pravouhly-trojuhelnik.AssemblyInfoInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net7.0\program003b-pravouhly-trojuhelnik.AssemblyInfo.cs
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net7.0\program003b-pravouhly-trojuhelnik.csproj.CoreCompileInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net7.0\program003b-pravouhly-trojuhelnik.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net7.0\refint\program003b-pravouhly-trojuhelnik.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net7.0\program003b-pravouhly-trojuhelnik.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net7.0\program003b-pravouhly-trojuhelnik.genruntimeconfig.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net7.0\ref\program003b-pravouhly-trojuhelnik.dll
