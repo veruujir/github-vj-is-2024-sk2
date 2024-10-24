@@ -1,0 +1,14 @@
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\bin\Debug\net7.0\program004 - generator.exe
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\bin\Debug\net7.0\program004 - generator.deps.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\bin\Debug\net7.0\program004 - generator.runtimeconfig.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\bin\Debug\net7.0\program004 - generator.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\bin\Debug\net7.0\program004 - generator.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\obj\Debug\net7.0\program004 - generator.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\obj\Debug\net7.0\program004 - generator.AssemblyInfoInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\obj\Debug\net7.0\program004 - generator.AssemblyInfo.cs
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\obj\Debug\net7.0\program004 - generator.csproj.CoreCompileInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\obj\Debug\net7.0\program004 - generator.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\obj\Debug\net7.0\refint\program004 - generator.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\obj\Debug\net7.0\program004 - generator.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\obj\Debug\net7.0\program004 - generator.genruntimeconfig.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program004 - generator\obj\Debug\net7.0\ref\program004 - generator.dll
