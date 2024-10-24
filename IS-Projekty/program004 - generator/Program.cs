@@ -75,7 +75,7 @@
 
 
 
-            Console.WriteLine("\nZáporná čísla: {0}", negativeCount);
+            Console.WriteLine("\n\nZáporná čísla: {0}", negativeCount);
             Console.WriteLine("Kladná čísla: {0} ", positiveCount);
             Console.WriteLine("Nuly: {0}", zeroCount);
             Console.WriteLine("Sudá čísla: {0} ", suda);
