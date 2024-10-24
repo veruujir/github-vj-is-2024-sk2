@@ -40,12 +40,46 @@
             //příprava pro generování náhodných čísel
             Random randomNumber = new Random();
 
+            int negativeCount = 0;
+            int positiveCount = 0;
+            int zeroCount = 0;
+            int suda = 0;
+            int licha =0;
+
             Console.WriteLine("Náhodná čísla: ");
+            
+
 
             for(int i = 0; i<n; i++){
             myArray[i] = randomNumber.Next(dm, hm+1);
             Console.Write("{0};", myArray[i]);
-            }
+        
+
+             if (myArray[i] < 0) {
+                    negativeCount++;
+            } else if (myArray[i] > 0) {
+                    positiveCount++;
+            } else {
+                    zeroCount++;
+             }
+             
+
+             if (myArray[i]%2 == 0 )
+                suda ++;
+             else
+                licha ++;
+             }
+
+
+
+
+
+
+            Console.WriteLine("\nZáporná čísla: {0}", negativeCount);
+            Console.WriteLine("Kladná čísla: {0} ", positiveCount);
+            Console.WriteLine("Nuly: {0}", zeroCount);
+            Console.WriteLine("Sudá čísla: {0} ", suda);
+            Console.WriteLine("Lichá čísla: {0}", licha);
 
 
             //opakování programu - TO DO 
