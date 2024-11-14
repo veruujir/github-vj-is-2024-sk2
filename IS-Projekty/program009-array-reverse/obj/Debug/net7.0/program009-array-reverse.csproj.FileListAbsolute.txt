@@ -1,0 +1,14 @@
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\bin\Debug\net7.0\program009-array-reverse.exe
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\bin\Debug\net7.0\program009-array-reverse.deps.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\bin\Debug\net7.0\program009-array-reverse.runtimeconfig.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\bin\Debug\net7.0\program009-array-reverse.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\bin\Debug\net7.0\program009-array-reverse.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\obj\Debug\net7.0\program009-array-reverse.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\obj\Debug\net7.0\program009-array-reverse.AssemblyInfoInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\obj\Debug\net7.0\program009-array-reverse.AssemblyInfo.cs
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\obj\Debug\net7.0\program009-array-reverse.csproj.CoreCompileInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\obj\Debug\net7.0\program009-array-reverse.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\obj\Debug\net7.0\refint\program009-array-reverse.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\obj\Debug\net7.0\program009-array-reverse.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\obj\Debug\net7.0\program009-array-reverse.genruntimeconfig.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program009-array-reverse\obj\Debug\net7.0\ref\program009-array-reverse.dll
