@@ -1,0 +1,14 @@
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\bin\Debug\net7.0\program008-dalsi-sorty.exe
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\bin\Debug\net7.0\program008-dalsi-sorty.deps.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\bin\Debug\net7.0\program008-dalsi-sorty.runtimeconfig.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\bin\Debug\net7.0\program008-dalsi-sorty.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\bin\Debug\net7.0\program008-dalsi-sorty.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\obj\Debug\net7.0\program008-dalsi-sorty.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\obj\Debug\net7.0\program008-dalsi-sorty.AssemblyInfoInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\obj\Debug\net7.0\program008-dalsi-sorty.AssemblyInfo.cs
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\obj\Debug\net7.0\program008-dalsi-sorty.csproj.CoreCompileInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\obj\Debug\net7.0\program008-dalsi-sorty.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\obj\Debug\net7.0\refint\program008-dalsi-sorty.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\obj\Debug\net7.0\program008-dalsi-sorty.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\obj\Debug\net7.0\program008-dalsi-sorty.genruntimeconfig.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program008-dalsi-sorty\obj\Debug\net7.0\ref\program008-dalsi-sorty.dll
