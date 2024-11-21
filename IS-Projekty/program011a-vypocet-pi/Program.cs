@@ -25,6 +25,13 @@
                 i = i+2;
                 znamenko = -znamenko;
                 piCtvrt += znamenko * (1/i);
+                if(znamenko==1){
+                    Console.WriteLine("Zlomek: +1/{0}; aktuální hodnota Pi = {1}", i, piCtvrt*4);
+                }else{
+                    Console.WriteLine("Zlomek: -1/{0}; aktuální hodnota Pi = {1}", i, piCtvrt*4);
+
+                }
+                
                 }
 
             double pi = 4 * piCtvrt;
