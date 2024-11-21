@@ -1,0 +1,14 @@
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\bin\Debug\net7.0\program012a-intervaly.exe
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\bin\Debug\net7.0\program012a-intervaly.deps.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\bin\Debug\net7.0\program012a-intervaly.runtimeconfig.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\bin\Debug\net7.0\program012a-intervaly.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\bin\Debug\net7.0\program012a-intervaly.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\obj\Debug\net7.0\program012a-intervaly.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\obj\Debug\net7.0\program012a-intervaly.AssemblyInfoInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\obj\Debug\net7.0\program012a-intervaly.AssemblyInfo.cs
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\obj\Debug\net7.0\program012a-intervaly.csproj.CoreCompileInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\obj\Debug\net7.0\program012a-intervaly.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\obj\Debug\net7.0\refint\program012a-intervaly.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\obj\Debug\net7.0\program012a-intervaly.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\obj\Debug\net7.0\program012a-intervaly.genruntimeconfig.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program012a-intervaly\obj\Debug\net7.0\ref\program012a-intervaly.dll
