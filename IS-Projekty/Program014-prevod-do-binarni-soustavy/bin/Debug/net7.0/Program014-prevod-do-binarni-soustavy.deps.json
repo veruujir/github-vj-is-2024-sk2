@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Program014-prevod-do-binarni-soustavy/1.0.0": {
+        "runtime": {
+          "Program014-prevod-do-binarni-soustavy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Program014-prevod-do-binarni-soustavy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

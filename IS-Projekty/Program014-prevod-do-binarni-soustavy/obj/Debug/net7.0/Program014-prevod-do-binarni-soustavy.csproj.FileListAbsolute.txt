@@ -1,0 +1,14 @@
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\bin\Debug\net7.0\Program014-prevod-do-binarni-soustavy.exe
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\bin\Debug\net7.0\Program014-prevod-do-binarni-soustavy.deps.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\bin\Debug\net7.0\Program014-prevod-do-binarni-soustavy.runtimeconfig.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\bin\Debug\net7.0\Program014-prevod-do-binarni-soustavy.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\bin\Debug\net7.0\Program014-prevod-do-binarni-soustavy.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\obj\Debug\net7.0\Program014-prevod-do-binarni-soustavy.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\obj\Debug\net7.0\Program014-prevod-do-binarni-soustavy.AssemblyInfoInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\obj\Debug\net7.0\Program014-prevod-do-binarni-soustavy.AssemblyInfo.cs
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\obj\Debug\net7.0\Program014-prevod-do-binarni-soustavy.csproj.CoreCompileInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\obj\Debug\net7.0\Program014-prevod-do-binarni-soustavy.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\obj\Debug\net7.0\refint\Program014-prevod-do-binarni-soustavy.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\obj\Debug\net7.0\Program014-prevod-do-binarni-soustavy.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\obj\Debug\net7.0\Program014-prevod-do-binarni-soustavy.genruntimeconfig.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\Program014-prevod-do-binarni-soustavy\obj\Debug\net7.0\ref\Program014-prevod-do-binarni-soustavy.dll
