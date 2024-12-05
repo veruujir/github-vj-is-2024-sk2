@@ -1,0 +1,14 @@
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\bin\Debug\net7.0\program016a-NSD-NSN.exe
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\bin\Debug\net7.0\program016a-NSD-NSN.deps.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\bin\Debug\net7.0\program016a-NSD-NSN.runtimeconfig.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\bin\Debug\net7.0\program016a-NSD-NSN.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\bin\Debug\net7.0\program016a-NSD-NSN.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\obj\Debug\net7.0\program016a-NSD-NSN.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\obj\Debug\net7.0\program016a-NSD-NSN.AssemblyInfoInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\obj\Debug\net7.0\program016a-NSD-NSN.AssemblyInfo.cs
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\obj\Debug\net7.0\program016a-NSD-NSN.csproj.CoreCompileInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\obj\Debug\net7.0\program016a-NSD-NSN.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\obj\Debug\net7.0\refint\program016a-NSD-NSN.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\obj\Debug\net7.0\program016a-NSD-NSN.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\obj\Debug\net7.0\program016a-NSD-NSN.genruntimeconfig.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program016a-NSD-NSN\obj\Debug\net7.0\ref\program016a-NSD-NSN.dll
