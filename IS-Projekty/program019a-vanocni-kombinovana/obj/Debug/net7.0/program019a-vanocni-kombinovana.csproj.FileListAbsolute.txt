@@ -1,0 +1,14 @@
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\bin\Debug\net7.0\program019a-vanocni-kombinovana.exe
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\bin\Debug\net7.0\program019a-vanocni-kombinovana.deps.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\bin\Debug\net7.0\program019a-vanocni-kombinovana.runtimeconfig.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\bin\Debug\net7.0\program019a-vanocni-kombinovana.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\bin\Debug\net7.0\program019a-vanocni-kombinovana.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\obj\Debug\net7.0\program019a-vanocni-kombinovana.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\obj\Debug\net7.0\program019a-vanocni-kombinovana.AssemblyInfoInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\obj\Debug\net7.0\program019a-vanocni-kombinovana.AssemblyInfo.cs
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\obj\Debug\net7.0\program019a-vanocni-kombinovana.csproj.CoreCompileInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\obj\Debug\net7.0\program019a-vanocni-kombinovana.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\obj\Debug\net7.0\refint\program019a-vanocni-kombinovana.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\obj\Debug\net7.0\program019a-vanocni-kombinovana.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\obj\Debug\net7.0\program019a-vanocni-kombinovana.genruntimeconfig.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\program019a-vanocni-kombinovana\obj\Debug\net7.0\ref\program019a-vanocni-kombinovana.dll
