@@ -1,0 +1,14 @@
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\bin\Debug\net7.0\priprava-na-zapocet.exe
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\bin\Debug\net7.0\priprava-na-zapocet.deps.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\bin\Debug\net7.0\priprava-na-zapocet.runtimeconfig.json
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\bin\Debug\net7.0\priprava-na-zapocet.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\bin\Debug\net7.0\priprava-na-zapocet.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\priprava-na-zapocet.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\priprava-na-zapocet.AssemblyInfoInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\priprava-na-zapocet.AssemblyInfo.cs
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\priprava-na-zapocet.csproj.CoreCompileInputs.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\priprava-na-zapocet.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\refint\priprava-na-zapocet.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\priprava-na-zapocet.pdb
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\priprava-na-zapocet.genruntimeconfig.cache
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\ref\priprava-na-zapocet.dll
