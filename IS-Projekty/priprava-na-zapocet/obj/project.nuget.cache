@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ZYBSnbyJjz0D4PolQyCdQRhpmo7elsIlr2MrvcKxdUevwDyhjuEF0PmO6cd1jWkj1om/CtjNNPJBXR4pY1id6A==",
+  "dgSpecHash": "rRXpb28B6aQ=",
   "success": true,
   "projectFilePath": "C:\\aaa\\IS-2024\\github-vj-is-2024-sk2\\IS-Projekty\\priprava-na-zapocet\\priprava-na-zapocet.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\verca\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\verca\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\verca\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\verca\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
