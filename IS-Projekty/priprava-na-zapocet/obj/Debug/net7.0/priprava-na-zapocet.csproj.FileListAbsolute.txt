@@ -12,3 +12,4 @@ C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\n
 C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\priprava-na-zapocet.pdb
 C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\priprava-na-zapocet.genruntimeconfig.cache
 C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\ref\priprava-na-zapocet.dll
+C:\aaa\IS-2024\github-vj-is-2024-sk2\IS-Projekty\priprava-na-zapocet\obj\Debug\net7.0\priprava-na-zapocet.sourcelink.json

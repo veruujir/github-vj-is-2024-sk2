@@ -258,7 +258,7 @@ for (int i = 0; i < n; i++)
     Console.WriteLine($"\nTřetí největší číslo: {third}");
     Console.WriteLine($"\nČtvrté největší číslo: {fourth}");
 
-    // Fibonacciho posloupnost
+    // Funkce pro výpočet Fibonacciho posloupnosti
 static ulong Fibonacci(int n)
 {
     if (n == 0) return 0;
@@ -289,6 +289,19 @@ for (int i = 0; i <= second; i++)
 }
 
 Console.WriteLine($"\nSoučet Fibonacciho posloupnosti až do druhého největšího čísla: {soucet1}");
+
+// Aritmetický průměr
+            int suma = 0;
+            for (int i = 0; i < n; i++)
+            {
+                suma += myArray[i];
+            }
+
+            int celaCast = suma / n;
+            int zbytek = suma % n;
+
+            Console.WriteLine("Suma všech čísel: {0}", suma);
+            Console.WriteLine("Aritmetický průměr: {0} (celá část: {1}, zbytek: {2})", (double)suma / n, celaCast, zbytek);
 
 //Aritmetická posloupnost
    int pocet = 10; 
@@ -341,15 +354,17 @@ else{
     Console.WriteLine("Pole nemá alespoň 4 prvky pro výpočet čtvrtého největšího čísla.");
 }
 
-// převod do čtyřkové soustavy
-static string ConvertToQuanternary(int number){ /*ConvertToSenary pokud šestková*/
-    string quaternary="";
-    while (number > 0){
-        int remainder = number%4; /*6 pokud šestková*/
-        quaternary = remainder+quaternary;
-        number/=4; /*6 pokud šestková*/
+// Funkce pro převod čísla do čtyřkové soustavy
+static string ConvertToQuanternary(int number)
+{
+    string quaternary = "";
+    while (number > 0)
+    {
+        int remainder = number % 4;
+        quaternary = remainder + quaternary;
+        number /= 4;
     }
-    return quaternary!=""?quaternary: "0";
+    return quaternary != "" ? quaternary : "0";
 }
 // součet a součin cifer maxima a minima
 int zaloha12 = maximum;
@@ -358,26 +373,42 @@ int suma1 = 0;
 int soucin1 = 1;  
 int cifra1;
 
+// Ujistíme se, že maximum a minimum jsou kladná čísla
 if (maximum < 0)
     maximum = -maximum;
 
 if (minimum < 0)
     minimum = -minimum;
 
-
-while (minimum >= 10)
+// Pro výpočet součtu a součinu cifer čísla maximum
+int sumaMaximum = 0;
+int soucinMaximum = 1;
+int tempMaximum = maximum;
+while (tempMaximum > 0)
 {
-    cifra1 = minimum % 10;
-    minimum = (minimum - cifra1) / 10;
-    suma1 += cifra1;  
-    soucin1 *= cifra1;  
+    cifra1 = tempMaximum % 10;
+    tempMaximum /= 10;
+    sumaMaximum += cifra1;  
+    soucinMaximum *= cifra1;  
 }
 
-suma1 += maximum;
-soucin1 *= minimum;
+// Pro výpočet součtu a součinu cifer čísla minimum
+int sumaMinimum = 0;
+int soucinMinimum = 1;
+int tempMinimum = minimum;
+while (tempMinimum > 0)
+{
+    cifra1 = tempMinimum % 10;
+    tempMinimum /= 10;
+    sumaMinimum += cifra1;  
+    soucinMinimum *= cifra1;  
+}
 
-Console.WriteLine("Součet cifer čísla {0} = {1}", zaloha12, suma1);
-Console.WriteLine("Součin cifer čísla {0} = {1}", zaloha22, soucin1);
+// Výstupy pro maximum a minimum
+Console.WriteLine("Součet cifer čísla {0} = {1}", zaloha12, sumaMaximum);
+Console.WriteLine("Součet cifer čísla {0} = {1}", zaloha22, sumaMinimum);
+Console.WriteLine("Součin cifer čísla {0} = {1}", zaloha12, soucinMaximum);
+Console.WriteLine("Součin cifer čísla {0} = {1}", zaloha22, soucinMinimum);
 
 //Celočíselný průměr
 static int CelociselnyPrumer(int[] pole)
@@ -464,10 +495,26 @@ static void SpocitejSudeLiche(int[]myArray, out int pocetSudych, out int pocetLi
             pocetLichych++;
 
         }
+    }}
+
+   /* //Faktoriál 2. největšího čísla
+    int faktorial = faktorial1(second);
+        Console.WriteLine($"\nFaktoriál druhého největšího čísla: {faktorial}");
     }
-}
 
-
+    static int faktorial1(int cislo)
+    {
+        if (cislo == 0)
+        {
+            return 1;
+        }
+        int faktorial = 1;
+        for (int i = 1; i <= cislo; i++)
+        {
+            faktorial *= i;
+        }
+        return faktorial;
+    }*/
 
     // Kosodélník, šířka: třetí největší číslo, výška: čtvrté největší
     int width = third;
@@ -503,37 +550,45 @@ static void SpocitejSudeLiche(int[]myArray, out int pocetSudych, out int pocetLi
     int width1 = height - 2; 
 
     Console.WriteLine("\n\nPřesýpací hodiny:");
-    for (int i = 0; i < height1; i++)
-    {
-        int spaces = i < height1 / 2 ? i : height1 - i - 1;
-
-        for (int j = 0; j < spaces; j++)
-        {
-            Console.Write(" "); 
-        }
-
-        for (int j = 0; j < width1; j++)
-        {
-            if (i == 0 || i == height1 - 1)
+    // Horní polovina přesýpacích hodin
+            for (int i = 0; i < height1; i++)
             {
-                Console.Write("* "); 
-            }
-            else if (j == 0 || j == width1 - 1)
+             for (int j = 0; j < height1 * 2 - 1; j++)
             {
-                Console.Write("* "); 
+        // Podmínky pro vykreslení horní poloviny přesýpacích hodin
+            if (j >= i && j < height1 * 2 - 1 - i)
+            {
+            Console.Write("* ");
             }
             else
-            {
-                Console.Write("  "); 
+             {
+            Console.Write("  ");
+             }
             }
-        }
+            Console.WriteLine();
+            }
 
-        Console.WriteLine(); 
-    }
+        // Dolní polovina přesýpacích hodin
+            for (int i = height1 - 2; i >= 0; i--)
+            {
+            for (int j = 0; j < height1 * 2 - 1; j++)
+            {
+        // Podmínky pro vykreslení dolní poloviny přesýpacích hodin
+            if (j >= i && j < height1 * 2 - 1 - i)
+             {
+            Console.Write("* ");
+             }
+            else
+            {
+            Console.Write("  ");
+             }
+            }
+             Console.WriteLine();
+            }
 
     Console.WriteLine("\n\nPro opakování programu stiskněte klávesu a");
     again = Console.ReadLine();
-}
+        }
 
 
 
@@ -544,66 +599,7 @@ static void SpocitejSudeLiche(int[]myArray, out int pocetSudych, out int pocetLi
 
 
 
-
-
-
-
-
-
-
-
-/*
-
-
-//Faktoriál 5. největšího čísla
-
-int faktorial = FaktorialPatehoNejvetsiho (pole);
-Console.WriteLine ($"\n\nFaktoriál pátého největšího čísla: {faktorial}");
-
-static int faktorial (int cislo){
-    if (cislo==0){
-        return 1;
-    }
-    int faktorial = 1;
-    for (int i=1; i<=cislo; i++){
-        faktorial *=i;
-    }
-    return faktorial;
-}
-static int FaktorialPatehoNejvetsiho (int []pole){
-    if(pole.Length<5){
-        return -1;
-    }
-    Array.Sort(pole);
-    int pateNejvetsi = pole [pole.Length-5];
-    return faktorial (pateNejvetsi);
-}
-
-
- //Ciferný součet a součin:
-    
-   int zaloha1 = max;
-    int zaloha2 = min;
-    int suma = 0;
-    int soucin = 1;
-    int cifra;
-
-    if(max<0)
-        max = -1 * max;
-
-    while(min>=10) {
-        cifra = min % 10;
-        min = (min - cifra)/10;
-        suma = suma + cifra;
-        soucin = soucin * cifra;
-    }   
-    suma = suma + max;
-    soucin = soucin * min;
-
-    Console.WriteLine("Součet cifer čísla {0} = {1}", zaloha1, suma);
-    Console.WriteLine("Součin cifer čísla {0} = {1}", zaloha2, soucin); 
-
-
+ /*
 
  //pravouhly
   
