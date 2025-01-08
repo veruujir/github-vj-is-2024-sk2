@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("priprava-na-zapocet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dda07aee4181fc4753eeac2c0dbf4bda022f5a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2ad76ad161d892ad1aa7dca8673087b3bda44ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("priprava-na-zapocet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("priprava-na-zapocet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

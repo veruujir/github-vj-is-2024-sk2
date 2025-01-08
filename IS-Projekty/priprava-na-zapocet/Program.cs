@@ -57,35 +57,31 @@
             poziceMin.Add(0);
             poziceMax.Add(0);
 
-            // Smyčka pro hledání minima a maxima
             for (int i = 1; i < n; i++)
             {
-                // Hledání minima
                 if (myArray[i] < minimum)
                 {
                     minimum = myArray[i];
-                    poziceMin.Clear();  // Vymaže předchozí pozice
-                    poziceMin.Add(i);   // Přidá novou pozici pro nové minimum
+                    poziceMin.Clear(); 
+                    poziceMin.Add(i);   
                 }
                 else if (myArray[i] == minimum)
                 {
-                    poziceMin.Add(i);  // Pokud je hodnota rovna minimu, přidá pozici
+                    poziceMin.Add(i); 
                 }
 
-                // Hledání maxima
                 if (myArray[i] > maximum)
                 {
                     maximum = myArray[i];
-                    poziceMax.Clear();  // Vymaže předchozí pozice
-                    poziceMax.Add(i);   // Přidá novou pozici pro nové maximum
+                    poziceMax.Clear();  
+                    poziceMax.Add(i);   
                 }
                 else if (myArray[i] == maximum)
                 {
-                    poziceMax.Add(i);  // Pokud je hodnota rovna maximu, přidá pozici
+                    poziceMax.Add(i); 
                 }
             }
 
-            // Výpis výsledků
             Console.WriteLine("\n\nMinimum: {0} (počet výskytů: {1})", minimum, poziceMin.Count);
             Console.Write("Pozice minimálních hodnot: ");
             foreach (int pozice in poziceMin)
@@ -100,10 +96,10 @@
                 Console.Write(pozice + ", ");
             }
 
-    // seřazení Comb sort
+    // Comb sort
     int gap = n;
     bool swapped = true;
-    while (gap != 1 || swapped)
+    while (gap != 1 || swapped) 
     {
         gap = (int)(gap / 1.3);
         if (gap < 1)
@@ -159,7 +155,7 @@
     Console.WriteLine("\nShaker Sort: ");
     Console.WriteLine(string.Join("; ", shakerArray));
 
-    // seřazení bubble sort
+    //bubble sort
     int numberCompare = 0;
     int numberChange = 0;
     for (int i = 0; i < n - 1; i++)
@@ -183,7 +179,7 @@
         Console.Write("{0};", myArray[i]);
     }
 
-    // seřazení insertion sort
+    //insertion sort
     int[] insertionArray = (int[])myArray.Clone();
     for (int i = 1; i < insertionArray.Length; i++)
     {
@@ -199,7 +195,7 @@
     Console.WriteLine("\nInsertion Sort: ");
     Console.WriteLine(string.Join("; ", insertionArray));
 
-    // seřazení selection sort
+    //selection sort
     int[] selectionArray = (int[])myArray.Clone();
     for (int i = 0; i < selectionArray.Length - 1; i++)
     {
@@ -218,7 +214,7 @@
     Console.WriteLine("\nSelection Sort: ");
     Console.WriteLine(string.Join("; ", selectionArray));
 
-    //seřazení shell sort
+    //shell sort
     int[] shellArray = (int[])myArray.Clone();
 for (int shell = n / 2; shell > 0; shell /= 2)
 {
@@ -258,7 +254,7 @@ for (int i = 0; i < n; i++)
     Console.WriteLine($"\nTřetí největší číslo: {third}");
     Console.WriteLine($"\nČtvrté největší číslo: {fourth}");
 
-    // Funkce pro výpočet Fibonacciho posloupnosti
+   // Funkce pro výpočet Fibonacciho posloupnosti
 static ulong Fibonacci(int n)
 {
     if (n == 0) return 0;
@@ -279,15 +275,14 @@ static ulong Fibonacci(int n)
 }
 
 Console.WriteLine("\n\nFibonacciho posloupnost až do druhého největšího čísla:");
-ulong soucet1 = 0; // Tady je správná inicializace součtu
+ulong soucet1 = 0;
 
-for (int i = 0; i <= second; i++)
+for (int i = 0; i < second; i++) 
 {
     ulong fib = Fibonacci(i);
     Console.Write($"{fib}; ");
-    soucet1 += fib; // Přičítání k součtu
+    soucet1 += fib; 
 }
-
 Console.WriteLine($"\nSoučet Fibonacciho posloupnosti až do druhého největšího čísla: {soucet1}");
 
 // Aritmetický průměr
@@ -304,7 +299,7 @@ Console.WriteLine($"\nSoučet Fibonacciho posloupnosti až do druhého největš
             Console.WriteLine("Aritmetický průměr: {0} (celá část: {1}, zbytek: {2})", (double)suma / n, celaCast, zbytek);
 
 //Aritmetická posloupnost
-   int pocet = 10; 
+    int pocet = 10; 
     int diference = fourth;
     int pprvek = second; 
     int soucet2 = pprvek;
@@ -325,7 +320,6 @@ Console.WriteLine($"\nSoučet Fibonacciho posloupnosti až do druhého největš
     Console.WriteLine($"\nSoučet řady: {soucet2}\n");
 
   //Median
-
    double median;
     int middleIndex = myArray.Length / 2;
 
@@ -342,19 +336,18 @@ else
 Console.WriteLine($"Medián: {median}");
 
 //převod do binární soustvy
-
     Array.Sort(myArray);
-    if(n>=4){
-    int ctvrteNejvetsi = myArray[n-4];
-    Console.WriteLine($"Čtvrté největší číslo: {fourth}");
-    string binarni = Convert.ToString(fourth,2);
-    Console.WriteLine ($"Čtvrté největší číslo v binární soustavě: {binarni}");
+    if(n>=2){
+    int druhe = myArray[n-2];
+    Console.WriteLine($"Druhé největší číslo: {second}");
+    string binarni = Convert.ToString(second,2);
+    Console.WriteLine ($"Druhé největší číslo v binární soustavě: {second}(2) = {binarni}");
 }
 else{
-    Console.WriteLine("Pole nemá alespoň 4 prvky pro výpočet čtvrtého největšího čísla.");
+    Console.WriteLine("Pole nemá alespoň 2 prvky pro výpočet druhého největšího čísla.");
 }
 
-// Funkce pro převod čísla do čtyřkové soustavy
+//Převod čísla do čtyřkové soustavy
 static string ConvertToQuanternary(int number)
 {
     string quaternary = "";
@@ -366,24 +359,19 @@ static string ConvertToQuanternary(int number)
     }
     return quaternary != "" ? quaternary : "0";
 }
-// součet a součin cifer maxima a minima
+Console.WriteLine($"Druhé největší číslo v čtyřkové soustavě je: {second}(4) = {ConvertToQuanternary(second)}");
+
+// Součet a součin cifer maxima
 int zaloha12 = maximum;
-int zaloha22 = minimum;
-int suma1 = 0;  
-int soucin1 = 1;  
 int cifra1;
 
-// Ujistíme se, že maximum a minimum jsou kladná čísla
 if (maximum < 0)
     maximum = -maximum;
 
-if (minimum < 0)
-    minimum = -minimum;
-
-// Pro výpočet součtu a součinu cifer čísla maximum
 int sumaMaximum = 0;
 int soucinMaximum = 1;
 int tempMaximum = maximum;
+
 while (tempMaximum > 0)
 {
     cifra1 = tempMaximum % 10;
@@ -391,63 +379,34 @@ while (tempMaximum > 0)
     sumaMaximum += cifra1;  
     soucinMaximum *= cifra1;  
 }
-
-// Pro výpočet součtu a součinu cifer čísla minimum
-int sumaMinimum = 0;
-int soucinMinimum = 1;
-int tempMinimum = minimum;
-while (tempMinimum > 0)
-{
-    cifra1 = tempMinimum % 10;
-    tempMinimum /= 10;
-    sumaMinimum += cifra1;  
-    soucinMinimum *= cifra1;  
-}
-
-// Výstupy pro maximum a minimum
 Console.WriteLine("Součet cifer čísla {0} = {1}", zaloha12, sumaMaximum);
-Console.WriteLine("Součet cifer čísla {0} = {1}", zaloha22, sumaMinimum);
 Console.WriteLine("Součin cifer čísla {0} = {1}", zaloha12, soucinMaximum);
-Console.WriteLine("Součin cifer čísla {0} = {1}", zaloha22, soucinMinimum);
 
 //Celočíselný průměr
-static int CelociselnyPrumer(int[] pole)
+static int CelyPrumer(int[] pole)
 {
-    if (pole.Length == 0)
-    {
-        return 0;
-    }
-    int soucet = 0;
-    foreach (int cislo in pole)
-    {
-        soucet += cislo;
-    }
-    return soucet / pole.Length;
+    return pole.Length == 0 ? 0 : pole.Sum() / pole.Length;
 }
 
-int prumer = CelociselnyPrumer(myArray);
-Console.WriteLine($"\n\nCeločíelný průměr vygenerovaných čísel: {prumer}");
+int prumer = CelyPrumer(myArray);
+Console.WriteLine($"\n\nCeločíselný průměr vygenerovaných čísel: {prumer}");
 
-static int CelociselnyPrumerSoustava(int cislo, int soustava, int[] pole)
+static int SoucetCiferVCSoustave(int cislo, int soustava)
 {
-    int zbytek;
     int sum = 0;
-    for (int i = 0; cislo > 0; i++)
+    while (cislo > 0)
     {
-        zbytek = cislo % soustava;
-        sum += zbytek;
-        cislo = cislo / soustava;
-        pole[i] = zbytek;
-        Console.WriteLine("Číslo = {0}, zbytek = {1}", cislo, zbytek);
+        sum += cislo % soustava;
+        cislo /= soustava;
     }
     return sum;
 }
-//Dělitelnost třemi
 
-int pocetDelitelnych = pocetCiselDelitelnchTremi (myArray);
+//Dělitelnost třemi
+int pocetDelitelnych = pocetCiselDelitelnychTremi (myArray);
 Console.WriteLine($"\n\nPočet čísel dělitelných třemi: {pocetDelitelnych}");
 
-static int pocetCiselDelitelnchTremi(int[]pole){
+static int pocetCiselDelitelnychTremi(int[]pole){
     int pocet = 0;
     foreach(int cislo in pole){
         if (cislo%3==0){
@@ -456,14 +415,13 @@ static int pocetCiselDelitelnchTremi(int[]pole){
     }
     return pocet;
 }
- Console.WriteLine("NSD a NSN");
+
 //NSD a NSN
 int a = second;
 int b = third;
 long zaloha1 = a;
 long zaloha2 = b;
 
-// Pracujeme s a a b, zálohy neovlivníme
 while(a != b)
 {
     if(a > b)
@@ -472,9 +430,8 @@ while(a != b)
         b = b - a;
 }
 
-long NSD = a; // Po výpočtu NSD se a a b shodují
+long NSD = a; 
 Console.WriteLine("\n\nNSD čísel {0} a {1} je {2}", zaloha1, zaloha2, NSD);
-
 long NSN = (zaloha1 * zaloha2) / NSD;
 Console.WriteLine("\n\nNSN čísel {0} a {1} je {2}", zaloha1, zaloha2, NSN);
 
@@ -497,10 +454,9 @@ static void SpocitejSudeLiche(int[]myArray, out int pocetSudych, out int pocetLi
         }
     }}
 
-   /* //Faktoriál 2. největšího čísla
+   //Faktoriál 2. největšího čísla
     int faktorial = faktorial1(second);
         Console.WriteLine($"\nFaktoriál druhého největšího čísla: {faktorial}");
-    }
 
     static int faktorial1(int cislo)
     {
@@ -509,190 +465,341 @@ static void SpocitejSudeLiche(int[]myArray, out int pocetSudych, out int pocetLi
             return 1;
         }
         int faktorial = 1;
-        for (int i = 1; i <= cislo; i++)
+        for (int i = 2; i <= cislo; i++)
         {
             faktorial *= i;
         }
         return faktorial;
-    }*/
+    }
+
+     //INTERVALY
+    int int01 = 0, int02 = 0, int03 = 0, int04 = 0;
+
+       
+        double intervalSize = (double)(hm - dm) / 4; 
+        foreach (int num in myArray)
+        {
+            if (num <= dm + intervalSize)
+                int01++;
+            else if (num <= dm + 2 * intervalSize)
+                int02++;
+            else if (num <= dm + 3 * intervalSize)
+                int03++;
+            else
+                int04++;
+        }
+        Console.WriteLine("\n\nIntervaly:");
+        Console.WriteLine("Interval <{0}; {1}>: {2}", dm, dm + intervalSize, int01);
+        Console.WriteLine("Interval <{0}; {1}>: {2}", dm + intervalSize + 1, dm + 2 * intervalSize, int02);
+        Console.WriteLine("Interval <{0}; {1}>: {2}", dm + 2 * intervalSize + 1, dm + 3 * intervalSize, int03);
+        Console.WriteLine("Interval <{0}; {1}>: {2}", dm + 3 * intervalSize + 1, hm, int04);
 
     // Kosodélník, šířka: třetí největší číslo, výška: čtvrté největší
-    int width = third;
-    int height = fourth;
+   int width = third; // šířka
+int height = fourth; // výška
 
-    for (int i = 0; i < height; i++)
-    {
-        for (int j = 0; j < i; j++)
-        {
-            Console.Write(" ");
-        }
-
-        for (int j = 0; j < width; j++)
-        {
-            if (i == 0 || i == height - 1)
-            {
-                Console.Write("* ");
-            }
-            else if (j == 0 || j == width - 1)
-            {
-                Console.Write("* ");
-            }
-            else
-            {
-                Console.Write("  ");
-            }
-        }
-
-        Console.WriteLine();
-    }
-
-    int height1 = 2 * second; 
-    int width1 = height - 2; 
-
-    Console.WriteLine("\n\nPřesýpací hodiny:");
-    // Horní polovina přesýpacích hodin
-            for (int i = 0; i < height1; i++)
-            {
-             for (int j = 0; j < height1 * 2 - 1; j++)
-            {
-        // Podmínky pro vykreslení horní poloviny přesýpacích hodin
-            if (j >= i && j < height1 * 2 - 1 - i)
-            {
-            Console.Write("* ");
-            }
-            else
-             {
-            Console.Write("  ");
-             }
-            }
-            Console.WriteLine();
-            }
-
-        // Dolní polovina přesýpacích hodin
-            for (int i = height1 - 2; i >= 0; i--)
-            {
-            for (int j = 0; j < height1 * 2 - 1; j++)
-            {
-        // Podmínky pro vykreslení dolní poloviny přesýpacích hodin
-            if (j >= i && j < height1 * 2 - 1 - i)
-             {
-            Console.Write("* ");
-             }
-            else
-            {
-            Console.Write("  ");
-             }
-            }
-             Console.WriteLine();
-            }
-
-    Console.WriteLine("\n\nPro opakování programu stiskněte klávesu a");
-    again = Console.ReadLine();
-        }
-
-
-
-
-
-
-
-
-
-
- /*
-
- //pravouhly
-  
-    for (int i =1;i<=n;i++)
-    {
-    for( int j=1; j<=i; j++)
-    {
-        Console.Write("*");
-    }
-    Console.WriteLine();
-    }
-
-    
-    //rovnoramenny prazdny
-
-    for(int i =1; i<= n; i++)
-    {
-        for(int j =1; j<= n-i; j++) 
-        {
-            Console.Write(" ");
-        } 
-        for(int k =1; k<= 2*i-1; k++) 
-        {
-            if(i==1 || i ==n ||k==1||k==2*i-1)
-            {
-            Console.Write("*");
-            }
-            else
-            {
-              Console.Write(" ");  
-            }
-        } 
-        Console.WriteLine();
-        
-
-    }
-
-    //posunutí obdelnik
-    int posunutiVpravo = 4; 
-
-for (int i = 1; i <= DruhyNejvetsi; i++)
+for (int i = 0; i < height; i++)
 {
-    for (int k = 0; k < posunutiVpravo; k++) 
+    for (int j = 0; j < i; j++)
     {
         Console.Write(" ");
     }
 
-    for (int j = 1; j <= TretiNevetsi; j++)
+    for (int j = 0; j < width; j++)
     {
-        if ( j == 1 || j == TretiNevetsi)
+        if (i == 0 || i == 1 || i == height - 1 || i == height - 2)
         {
-            Console.Write("*");
+            Console.Write("* ");
+        }
+        else if (j == 0 || j == width - 1)
+        {
+            Console.Write("* ");
         }
         else
         {
-            Console.Write(" ");
+            Console.Write("  ");
+        }
+    }
+
+    Console.WriteLine();
+}
+Console.WriteLine("\n");
+
+//ŠTÍT
+int vyska4 = second; 
+for (int i = 0; i < vyska4 / 2 + 1; i++)
+{
+    for (int j = 0; j < vyska4; j++)
+    {
+        Console.Write("* ");
+    }
+    Console.WriteLine();
+}
+for (int i = 0; i < vyska4 / 2 + 1; i++) 
+{
+    for (int j = 0; j < i; j++)
+    {
+        Console.Write("  "); 
+    }
+
+    for (int j = 0; j < vyska4 - (2 * i); j++)
+    {
+        Console.Write("* ");
+    }
+
+    Console.WriteLine();
+}
+
+Console.WriteLine("\n");
+
+ // dva trojúhelníky a čtverec mezi nimi
+int vyska6 = second; // Výška a šířka trojúhelníku a čtverce
+int width6 = vyska6; 
+
+// Horní rovnostranný trojúhelník
+for (int i = 1; i <= vyska6 / 2; i++)
+{
+    for (int j = 0; j < (vyska6 - i); j++) // Mezery na začátku řádku
+    {
+        Console.Write(" ");
+    }
+
+    for (int j = 0; j < 2 * i - 1; j++) // Hvězdičky v řádku
+    {
+        Console.Write("* ");
+    }
+
+    Console.WriteLine();
+}
+
+// Čtverec
+for (int i = 0; i < vyska6; i++)
+{
+    for (int j = 0; j < width6; j++)
+    {
+        Console.Write("* ");
+    }
+    Console.WriteLine();
+}
+
+// Spodní rovnostranný trojúhelník
+for (int i = vyska6 / 2 - 1; i >= 0; i--)
+{
+    for (int j = 0; j < (vyska6 - i); j++) // Mezery na začátku řádku
+    {
+        Console.Write(" ");
+    }
+
+    for (int j = 0; j < 2 * i - 1; j++) // Hvězdičky v řádku
+    {
+        Console.Write("* ");
+    }
+
+    Console.WriteLine();
+}
+
+
+    //PŘESÝPACÍ HODINY
+   int height1 = second;  
+int width1 = 2 * height1; 
+
+Console.WriteLine("\n\nPřesýpací hodiny:");
+
+for (int i = 0; i < height1; i++)  
+{
+    for (int j = 0; j < width1; j++)
+    {
+        if (j >= i && j < width1 - i)  
+        {
+            Console.Write("* ");
+        }
+        else
+        {
+            Console.Write("  ");
         }
     }
     Console.WriteLine();
 }
 
-    //strom
-  for (int k = 1; k <= DruhyNejvetsi; k++)
+for (int i = height1 - 2; i >= 0; i--)  
 {
-    for (int i = 1; i <= k; i++)
+    for (int j = 0; j < width1; j++)
     {
-        for (int j = 1; j <= DruhyNejvetsi - i; j++)
+        if (j >= i && j < width1 - i) 
         {
-            Console.Write(" ");
+            Console.Write("* ");
         }
-        for (int j = 1; j <= i * 2 - 1; j++)
+        else
+        {
+            Console.Write("  ");
+        }
+    }
+    Console.WriteLine();
+}
+Console.WriteLine("\n");
+Console.WriteLine("\n");
+
+
+//ŠIPKA NAHORU
+int vyska8 = second; 
+int sirka8 = 3; 
+
+for (int i = 1; i <= vyska8; i++)
+{
+    for (int j = 1; j <= vyska8 - i; j++)
+    {
+        Console.Write(" ");
+    }
+    for (int k = 1; k <= i; k++)
+    {
+        Console.Write("* ");
+    }
+
+    Console.WriteLine();
+}
+for (int i = 0; i < vyska8; i++) 
+{
+    int mezera = (vyska8 - sirka8) / 2; 
+    for (int j = 0; j < mezera; j++) 
+    {
+        Console.Write(" ");
+    }
+
+    for (int j = 0; j < sirka8; j++)
+    {
+        Console.Write("* ");
+    }
+
+    Console.WriteLine();
+}
+Console.WriteLine("\n");
+Console.WriteLine("\n");
+
+
+//ŠIPKA DOLU
+int vyska80 = second;
+int sirka80 = 3; 
+
+for (int i = 0; i < vyska80; i++) 
+{
+    int mezera = (vyska80 - sirka80) / 2; 
+    for (int j = 0; j < mezera; j++) 
+    {
+        Console.Write(" ");
+    }
+    for (int j = 0; j < sirka80; j++) 
+    {
+        Console.Write("* ");
+    }
+
+    Console.WriteLine();
+}
+
+for (int i = vyska80; i >= 1; i--)
+{
+    
+    for (int j = 1; j <= vyska80 - i; j++) 
+    {
+        Console.Write(" ");
+    }
+    for (int k = 1; k <= i; k++)
+    {
+        Console.Write("* "); 
+    }
+
+    Console.WriteLine();
+}
+
+Console.WriteLine("\n");
+Console.WriteLine("\n");
+
+
+
+ //PRAVOÚHLÝ TROJÚHELNÍK
+ int vyska = second;
+
+for (int i = 1; i <= vyska; i++)
+{
+    // Přidání mezer pro zrcadlový efekt
+    for (int j = 1; j <= vyska - i; j++)
+    {
+        Console.Write(" ");  // Mezery pro zrcadlový efekt
+    }
+
+    // Výpis hvězdiček bez mezer mezi nimi
+    for (int j = 1; j <= i; j++)
+    {
+        Console.Write("*");  // Hvězdičky, bez mezery mezi nimi
+    }
+
+    Console.WriteLine();
+}
+Console.WriteLine("\n");
+
+//ČTVEREC ÚHLOPŘÍČNĚ PRÁZDNÝ
+int vyskaSirka = second;
+
+for (int i = 0; i < vyskaSirka; i++)  // Řádky
+{
+    for (int j = 0; j < vyskaSirka; j++)  // Sloupce
+    {
+        // Okraje čtverce a úhlopříčka zleva doprava
+        if (i == 0 || i == vyskaSirka - 1 || j == 0 || j == vyskaSirka - 1 || i == j)
+        {
+            Console.Write("* ");
+        }
+        // V prostoru nad úhlopříčkou (i < j) vypíšeme nulu
+        else if (i < j)
+        {
+            Console.Write("0 ");
+        }
+        else
+        {
+            Console.Write("  ");  // Mezery uvnitř čtverce
+        }
+    }
+    Console.WriteLine();
+}
+
+Console.WriteLine("\n");
+//ROVNOSTRANNÝ TROJÚHELNÍK
+        int vyska10 = second;
+
+for (int i = 1; i <= vyska10; i++)
+{
+    for (int j = 1; j <= vyska10 - i; j++)
+    {
+        Console.Write(" ");
+    }
+
+    for (int k = 1; k <= i; k++)
+    {
+        Console.Write("* "); 
+    }
+
+    Console.WriteLine();
+}
+
+Console.WriteLine("\n");
+    //OBDÉLNÍK
+    int sirka3 = second;
+    int vyska3 = third;
+
+for (int h = 0; h < vyska; h++)
+{
+    for (int j = 0; j < sirka3; j++) 
+    {
+        if (h == 0 || h == vyska - 1 || j == 0 || j == sirka3 - 1) 
         {
             Console.Write("*");
         }
-        Console.WriteLine();
+        else 
+        {
+            Console.Write(" ");
+        }
     }
- }
-
-//obdélník
-  int w = 5; //šířka obdélníku
-   int h = 3; //výška obdélníku
-
-   Console.WriteLine("\nobdelnik");
-   for (int i = 0; i < h; i++)
-   {
-            string stars = new string('*', w);
-            Console.WriteLine(stars);
-        } 
-
-    }
-
-
-    Console.WriteLine("\n\n\nPro opakování programu stiskněte klávesu a");
-    opakovani=Console.ReadLine(); 
+    Console.WriteLine(); 
 }
-*/
+    Console.WriteLine("\n\nPro opakování programu stiskněte klávesu a");
+    again = Console.ReadLine();}
+ 
